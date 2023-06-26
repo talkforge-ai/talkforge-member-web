@@ -1,31 +1,138 @@
-.App {
-  text-align: center;
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.Desc {
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 674px) {
+  .Desc {
+    text-align: center;
+    margin: 0;
+  }
+
+  .Btn-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  .Desc {
+    text-align: left;
+    margin-left: 3rem;
+  }
+
+  .Btn-wrapper {
+    display: block;
+  }
+}
+
+.LogoImage {
+  width: 16rem;
+  height: 16rem;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  background-image: url(./asset/BGbg\ 3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.APP-desc {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 28px;
+  color: #ffffff;
+  max-width: 29.375rem;
+  margin: 0.8125rem 0 1.625rem;
+}
+
+.Btn-text {
+  font-family: "PingFang SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.App-store {
+  background-image: url(./asset/app-store.png);
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 10.5rem;
+  height: 3.75rem;
+  display: inline-block;
+}
+
+.Google-play {
+  background-image: url(./asset/goole-play.png);
+  background-size: cover;
+  text-align: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 12.625rem;
+  height: 3.75rem;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0px;
+  color: #a8a8a8;
+  padding: 0.375rem;
+  width: 100%;
+  font-size: 0.875rem;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.12);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
