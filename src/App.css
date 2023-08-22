@@ -1,0 +1,101 @@
+.app {
+  position: relative;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.bg-block {
+  width: 100%;
+  height: 390px;
+  background: radial-gradient(
+      55.13% 55.13% at 100% 0%,
+      rgba(0, 255, 224, 0.4) 0%,
+      rgba(0, 255, 255, 0) 100%
+    ),
+    linear-gradient(180deg, #b4dcff 0%, #fff 100%);
+}
+
+.content-block {
+  position: absolute;
+  top: 0;
+  padding: 122px 24px 0;
+}
+
+.member-block-title {
+  color: var(--brand-blue, #5078f0);
+  /* Title CN */
+  font-family: PingFang SC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 111.111% */
+}
+
+.member-block-desc {
+  color: var(--brand-blue, #5078f0);
+  /* Subtitle EN */
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 130% */
+}
+
+.main-text {
+  color: var(--text-white, #fff);
+  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.75);
+  transform: translateY(-84px);
+  padding: 0 24px;
+  /* Body 3 */
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.des-title {
+  color: var(--text-black, #333);
+  font-family: PingFang SC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.des-des {
+  color: var(--text-black, #333);
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+
+.plus {
+  width: 100px;
+  height: 18px;
+  border-radius: 9px;
+  background: var(--bg-black, #000);
+  color: var(--highlight-blue, #00f0ff);
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.pre {
+  color: var(--brand-blue, #5078f0);
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.td-1 {
+  font-weight: 600;
+}
