@@ -98,10 +98,10 @@ function App() {
             <div style={{ paddingTop: "80px" }}>
               <div className="text-block">
                 <div className="des-title" style={{ textAlign: "right" }}>
-                  智能职场助理
+                  智能私教
                 </div>
                 <div className="des-des" style={{ textAlign: "right" }}>
-                  轻松解决文案生成、邮件编辑、方案分析、文字处理，PPT生成等工作难题，大幅提升办公效率
+                  AI老师规划商务英语学习，场景化训练+核心表达拆解，智能诊断薄弱点，系统提升实战能力
                 </div>
               </div>
             </div>

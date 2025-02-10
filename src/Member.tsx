@@ -25,7 +25,7 @@ const Member = () => {
         <tbody>
           <tr style={{ height: "62px" }}>
             <td className="td-1">场景对话</td>
-            <td>免费体验1天3次/天</td>
+            <td>免费体验1天<br/>3次/天</td>
             <td>35次/月</td>
             <td>无上限</td>
           </tr>
@@ -36,19 +36,19 @@ const Member = () => {
             <td>支持</td>
           </tr>
           <tr style={{ height: "33px" }}>
-            <td className="td-1">知识解答</td>
+            <td className="td-1">智能私教</td>
             <td>免费体验1天</td>
             <td>无上限</td>
             <td>无上限</td>
           </tr>
           <tr style={{ height: "33px" }}>
-            <td className="td-1">职场助理</td>
-            <td>免费体验1天</td>
+            <td className="td-1">短句精练</td>
+            <td>无上限</td>
             <td>无上限</td>
             <td>无上限</td>
           </tr>
           <tr style={{ height: "33px" }} className="last-tr">
-            <td className="td-1">学习报告</td>
+            <td className="td-1">对话报告</td>
             <td>支持</td>
             <td>支持</td>
             <td>支持</td>
