@@ -43,7 +43,7 @@ const Member = () => {
           </tr>
           <tr style={{ height: "33px" }}>
             <td className="td-1">短句精练</td>
-            <td>无上限</td>
+            <td>免费体验1天<br/>3次/天</td>
             <td>无上限</td>
             <td>无上限</td>
           </tr>
