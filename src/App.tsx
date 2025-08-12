@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
 import logo from "./asset/logo.svg";
 import talkImg from "./asset/image.jpg";
@@ -10,10 +11,11 @@ import gospl from "./asset/gospl.svg";
 import "./App.css";
 
 import Member from "./Member";
+import Android from "./Android";
 
-function App() {
+const HomePage = () => {
   return (
-    <div className="app">
+    <>
       <div className="bg-block">
         <div>
           <img
@@ -128,6 +130,17 @@ function App() {
         </div>
         <Member />
       </div>
+    </>
+  );
+};
+
+function App() {
+  return (
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/android" element={<Android />} />
+      </Routes>
     </div>
   );
 }
