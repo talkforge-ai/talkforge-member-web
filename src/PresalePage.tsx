@@ -123,25 +123,9 @@ const FeatureCard: React.FC<{ feature: Feature }> = ({ feature }) => {
 };
 
 const PresalePage: React.FC = () => {
-  const handleBack = () => {
-    if (window.history.length > 1) {
-      window.history.back();
-    }
-  };
-
   return (
     <main className="presale-page">
       <section className="presale-hero">
-        <div className="presale-safe-top" />
-        <button
-          className="presale-back"
-          type="button"
-          aria-label="返回"
-          onClick={handleBack}
-        >
-          ‹
-        </button>
-
         <div className="presale-hero-content">
           <h1>
             学英语，最怕的不是不会

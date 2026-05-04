@@ -199,7 +199,7 @@
 }
 
 .presale-page {
-  --native-subscribe-safe-height: 220px;
+  --native-subscribe-safe-height: 72px;
 
   width: 100%;
   max-width: 430px;
@@ -225,26 +225,10 @@
     linear-gradient(180deg, #b8ddff 0%, #f5fbff 68%, #fff 100%);
 }
 
-.presale-safe-top {
-  height: 44px;
-}
-
-.presale-back {
-  width: 44px;
-  height: 44px;
-  border: 0;
-  padding: 0;
-  background: transparent;
-  color: #333;
-  font-size: 34px;
-  line-height: 44px;
-  text-align: left;
-}
-
 .presale-hero-content {
   position: relative;
   z-index: 1;
-  padding-top: 38px;
+  padding-top: 34px;
 }
 
 .presale-hero h1 {
@@ -663,7 +647,7 @@
 
 @media (max-width: 360px) {
   .presale-page {
-    --native-subscribe-safe-height: 236px;
+    --native-subscribe-safe-height: 88px;
   }
 
   .presale-hero {
