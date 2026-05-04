@@ -1,6 +1,5 @@
 import React from "react";
 
-import logoImage from "./asset/logo.svg";
 import heroImage from "./asset/presale/hero.jpg";
 import dialogueImage from "./asset/presale/dialogue.jpg";
 import dailyPracticeImage from "./asset/presale/daily-practice.jpg";
@@ -142,12 +141,6 @@ const PresalePage: React.FC = () => {
         >
           ‹
         </button>
-        <img
-          className="presale-hero-logo-bg"
-          src={logoImage}
-          alt=""
-          aria-hidden="true"
-        />
 
         <div className="presale-hero-content">
           <h1>

@@ -241,16 +241,6 @@
   text-align: left;
 }
 
-.presale-hero-logo-bg {
-  position: absolute;
-  top: 78px;
-  right: -26px;
-  width: 168px;
-  height: auto;
-  opacity: 0.64;
-  pointer-events: none;
-}
-
 .presale-hero-content {
   position: relative;
   z-index: 1;
